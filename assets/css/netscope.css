@@ -95,6 +95,8 @@ h1, h2, h3 {
 #net-error .msg {
 }
 
+/* node(layer) */
+
 .node-label {
     font-size: 14px;
     color: #563621;
@@ -125,6 +127,22 @@ h1, h2, h3 {
 
 .node-type-inner-product .node-label, .node-type-innerproduct .node-label {
     color: #FFF;
+}
+
+.node-type-implicit {
+    fill: #a5c261; 
+}
+
+.node-type-pooling {
+    fill: #ca99c2;  
+}
+
+.node-type-python {
+    fill: #CDDC39;  
+}
+
+.node-type-batchnorm {
+    fill: #69BFFF;  
 }
 
 .node-type-source {
